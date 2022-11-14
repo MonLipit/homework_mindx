@@ -79,10 +79,10 @@
         constructor(name, price){
             this.name = name;
             this.price = price;
-        }
+        }  
         show(){
             return `Day la khoa hoc ${this.name} co gia la ${this.price} $`
         }
-    }
-    const jsCourse = new Course('JS', 1000)
+    }  
+    const jsCourse = new Course('JS', 1000)  
     console.log(jsCourse)
